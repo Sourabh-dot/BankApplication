@@ -140,33 +140,4 @@ public class Application implements Banking
 		System.out.println("Thank you for choosing ABC :-)");
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
