@@ -77,11 +77,11 @@ public class Application implements Banking
 		System.out.println("D. Previous Transaction Details");
 		System.out.println("E. Exit");
 		
+		System.out.println("*******************************************");
+	  	System.out.println("Enter Option : ");
+		System.out.println("*******************************************");
 		
 		do {
-			System.out.println("*******************************************");
-			System.out.println("Enter Option : ");
-			System.out.println("*******************************************");
 			opt = scanner.next().charAt(0);
 			System.out.println();
 			
@@ -134,10 +134,12 @@ public class Application implements Banking
 				break;
 			default:
 				System.out.println("Invalid Option. Please Enter valid Option");
+				System.out.println("_______________________________________");
 				break;
 			}
 		}while(opt!='E');
-		System.out.println("Thank you for choosing ABC :-)");
+		System.out.println();
+		System.out.println("Thank you for choosing ABC :-)"+'\n');
 	}
 	
 }
